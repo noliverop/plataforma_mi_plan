@@ -1,0 +1,8 @@
+[
+  { "nombre": "GES / AUGE", "descripcion": "Cobertura garantizada para un listado de problemas de salud, con plazos y topes de copago definidos por ley.", "icon": "ti-shield-check" },
+  { "nombre": "CAEC", "descripcion": "Protección financiera frente a enfermedades de alto costo, con un tope a lo que pagas de tu bolsillo.", "icon": "ti-umbrella" },
+  { "nombre": "Ley de Urgencias", "descripcion": "En una urgencia vital te puedes atender en cualquier servicio sin pago previo; tu Isapre cubre y regulariza después.", "icon": "ti-ambulance" },
+  { "nombre": "Ley Ricarte Soto", "descripcion": "Financiamiento para diagnósticos y tratamientos de alto costo de ciertas enfermedades específicas.", "icon": "ti-heart-handshake" },
+  { "nombre": "Beneficios preventivos", "descripcion": "Exámenes de medicina preventiva sin costo según tu edad y sexo, para detectar a tiempo.", "icon": "ti-stethoscope" },
+  { "nombre": "Coberturas especiales del contrato", "descripcion": "Beneficios adicionales que tu plan específico pueda incluir, más allá de lo obligatorio.", "icon": "ti-plus" }
+]

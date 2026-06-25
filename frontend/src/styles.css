@@ -488,3 +488,214 @@ button {
     padding: 1.75rem 1.25rem;
   }
 }
+
+/* ---------- Thesis banner (Módulo 2) ---------- */
+.thesis {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: #eef4f1;
+  border-radius: var(--radius);
+  padding: 1.25rem 1.4rem;
+  margin-bottom: 1rem;
+}
+.thesis-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: var(--surface);
+  color: var(--brand);
+  font-size: 24px;
+}
+.thesis-text {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--ink);
+}
+.thesis-text strong {
+  color: var(--brand);
+  font-weight: 600;
+}
+
+/* ---------- Person card (Módulo 2) ---------- */
+.person-head {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  margin-bottom: 0.9rem;
+}
+.chip-avatar-main {
+  background: var(--brand);
+  color: #fff;
+}
+.person-name {
+  margin: 0;
+  font-weight: 600;
+  font-size: 15px;
+}
+.person-meta {
+  margin: 1px 0 0;
+  font-size: 13px;
+  color: var(--muted);
+  text-transform: capitalize;
+}
+.person-note {
+  margin: 0;
+  font-size: 13.5px;
+  color: var(--muted);
+}
+
+.exams {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.exam-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 0;
+  border-top: 1px solid var(--line);
+  font-size: 14px;
+}
+.exam-dot {
+  color: var(--brand-soft);
+  font-size: 16px;
+  flex-shrink: 0;
+}
+.exam-name {
+  font-weight: 500;
+}
+.exam-motivo {
+  margin-left: auto;
+  font-size: 12.5px;
+  color: var(--muted);
+  text-align: right;
+}
+
+/* ---------- Prestadores (Módulo 2) ---------- */
+.prestador {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 0.9rem 0;
+  border-top: 1px solid var(--line);
+}
+.prestador:first-of-type {
+  border-top: none;
+}
+.prestador-name {
+  margin: 0;
+  font-weight: 500;
+  font-size: 14.5px;
+}
+.prestador-comuna {
+  margin: 2px 0 0;
+  font-size: 13px;
+  color: var(--muted);
+}
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: flex-end;
+  max-width: 56%;
+}
+.tag {
+  font-size: 11.5px;
+  color: var(--brand);
+  background: #eef4f1;
+  border-radius: 999px;
+  padding: 3px 9px;
+}
+
+/* ---------- Glosario (Módulo 3) ---------- */
+.search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 0 12px;
+  margin-bottom: 1rem;
+}
+.search i {
+  color: var(--muted);
+  font-size: 18px;
+}
+.search input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: inherit;
+  font-size: 14.5px;
+  padding: 10px 0;
+  color: var(--ink);
+}
+.glosario {
+  margin: 0;
+}
+.glo-item {
+  padding: 0.9rem 0;
+  border-top: 1px solid var(--line);
+}
+.glo-item:first-child {
+  border-top: none;
+  padding-top: 0;
+}
+.glo-term {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 16px;
+}
+.glo-def {
+  margin: 0.25rem 0 0;
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+/* ---------- Beneficios (Módulo 3) ---------- */
+.card-label-loose {
+  margin-bottom: 0.9rem;
+}
+.beneficios {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+}
+.beneficio {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 1.1rem 1.2rem;
+}
+.beneficio-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  background: #eef4f1;
+  color: var(--brand);
+  font-size: 20px;
+  margin-bottom: 0.7rem;
+}
+.beneficio-name {
+  margin: 0;
+  font-weight: 600;
+  font-size: 14.5px;
+}
+.beneficio-desc {
+  margin: 0.3rem 0 0;
+  font-size: 13.5px;
+  color: var(--muted);
+  line-height: 1.5;
+}

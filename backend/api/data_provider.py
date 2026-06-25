@@ -41,6 +41,18 @@ class DataProvider(ABC):
     def get_licencias_medicas(self, contrato_id: str) -> list:
         """VAL_LICENCIA_MEDICA_CIRC69: licencias del período."""
 
+    @abstractmethod
+    def get_red_prestadores(self) -> list:
+        """Red de prestadores donde realizar exámenes (solicitud a la Isapre)."""
+
+    @abstractmethod
+    def get_glosario(self) -> list:
+        """Glosario simple (fuente: Superintendencia de Salud)."""
+
+    @abstractmethod
+    def get_beneficios(self) -> list:
+        """Beneficios y derechos disponibles (fuente: Superintendencia)."""
+
 
 class JSONDataProvider(DataProvider):
     """Implementación de juguete: lee los JSON de la carpeta /data.
@@ -69,6 +81,15 @@ class JSONDataProvider(DataProvider):
 
     def get_licencias_medicas(self, contrato_id: str) -> list:
         return self._load("val_licencia_medica.json").get(contrato_id, [])
+
+    def get_red_prestadores(self) -> list:
+        return self._load("red_prestadores.json")
+
+    def get_glosario(self) -> list:
+        return self._load("glosario.json")
+
+    def get_beneficios(self) -> list:
+        return self._load("beneficios.json")
 
 
 # Mañana, para conectar la BD real, basta con algo como:

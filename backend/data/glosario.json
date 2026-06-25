@@ -1,0 +1,13 @@
+[
+  { "termino": "Plan de salud", "definicion": "El contrato entre tú y tu Isapre que define qué prestaciones cubre, cuánto pagas y bajo qué condiciones." },
+  { "termino": "Cotización", "definicion": "El monto mensual que pagas por tu plan. Por ley, el mínimo obligatorio es el 7% de tu renta imponible." },
+  { "termino": "GES", "definicion": "Garantías Explícitas en Salud: un grupo de problemas de salud con cobertura garantizada en acceso, calidad, oportunidad y protección financiera." },
+  { "termino": "CAEC", "definicion": "Cobertura Adicional para Enfermedades Catastróficas: protege tu bolsillo cuando los gastos de salud son muy altos, con un tope de copago." },
+  { "termino": "Bonificación", "definicion": "La parte de una prestación que paga la Isapre: lo que ella cubre del valor total." },
+  { "termino": "Copago", "definicion": "La parte que pagas tú de una prestación, después de la bonificación de la Isapre." },
+  { "termino": "Deducible", "definicion": "El monto que debes acumular en copagos antes de que ciertas coberturas, como la CAEC, empiecen a operar." },
+  { "termino": "Prestador preferente", "definicion": "El centro o profesional con el que tu plan tiene convenio para entregarte una mejor cobertura." },
+  { "termino": "Red cerrada", "definicion": "Plan en que solo tienes cobertura si te atiendes dentro de una red definida de prestadores." },
+  { "termino": "Red libre elección", "definicion": "Modalidad en que eliges libremente dónde atenderte, con la cobertura que defina tu plan." },
+  { "termino": "Examen de Medicina Preventiva", "definicion": "Conjunto de exámenes gratuitos, según tu edad y sexo, para detectar a tiempo enfermedades frecuentes." }
+]

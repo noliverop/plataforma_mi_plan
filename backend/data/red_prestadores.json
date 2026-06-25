@@ -1,0 +1,17 @@
+[
+  {
+    "nombre": "Centro Médico Salud Norte",
+    "comuna": "Independencia",
+    "examenes": ["Presión arterial", "Glicemia", "Perfil lipídico (colesterol)", "Peso y talla (IMC)"]
+  },
+  {
+    "nombre": "Laboratorio Vida",
+    "comuna": "Providencia",
+    "examenes": ["Glicemia", "Perfil lipídico (colesterol)", "Papanicolaou (PAP)"]
+  },
+  {
+    "nombre": "Clínica Preventiva Maipú",
+    "comuna": "Maipú",
+    "examenes": ["Mamografía", "Papanicolaou (PAP)", "Presión arterial", "Antígeno prostático"]
+  }
+]

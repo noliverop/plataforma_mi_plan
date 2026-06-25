@@ -29,8 +29,8 @@ Este proyecto es también un espacio de aprendizaje. Cuando hagas un cambio:
 El producto crece por **módulos**, cada uno anclado a una pregunta del usuario:
 
 - Módulo 1 — Resultado de mi plan: *¿Cuál es el resultado de mi plan en términos simples?* (implementado)
-- Módulo 2 — Prevención: *¿Tengo exámenes gratuitos pendientes?* (futuro)
-- Módulo 3 — Información y ayuda: *¿Cómo entender mi Plan?* (futuro)
+- Módulo 2 — Prevención: *¿Tengo exámenes gratuitos pendientes?* (implementado)
+- Módulo 3 — Información y ayuda: *¿Cómo entender mi Plan?* (implementado)
 
 El diseño está pensado para que **agregar un módulo no obligue a tocar el resto**:
 
