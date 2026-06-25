@@ -1,0 +1,7 @@
+{
+  "CONTRATO-001": [
+    { "ptn": "Consulta médica general", "valor_facturado": 45000, "valor_bonificado": 31500, "monto_copago": 13500 },
+    { "ptn": "Exámenes de laboratorio", "valor_facturado": 60000, "valor_bonificado": 42000, "monto_copago": 18000 },
+    { "ptn": "Imagenología", "valor_facturado": 38000, "valor_bonificado": 24900, "monto_copago": 1200 }
+  ]
+}

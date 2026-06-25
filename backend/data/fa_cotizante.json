@@ -1,0 +1,16 @@
+{
+  "CONTRATO-001": {
+    "contrato_id": "CONTRATO-001",
+    "cotizante": {
+      "nombre": "Juan Pérez",
+      "rut": "12.345.678-9",
+      "edad": 41,
+      "sexo": "M",
+      "email": "juan.perez@ejemplo.cl"
+    },
+    "cargas": [
+      { "nombre": "Ana Pérez", "edad": 34, "sexo": "F" },
+      { "nombre": "Luis Pérez", "edad": 8, "sexo": "M" }
+    ]
+  }
+}

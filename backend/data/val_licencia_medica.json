@@ -1,0 +1,7 @@
+{
+  "CONTRATO-001": [
+    { "tipo": "curativa", "estado": "autorizada", "subsidio_liquido": 54000 },
+    { "tipo": "medicina_preventiva", "subtipo": 3, "estado": "autorizada", "subsidio_liquido": 20000 },
+    { "tipo": "no_curativa", "estado": "autorizada", "subsidio_liquido": 15000 }
+  ]
+}

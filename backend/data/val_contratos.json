@@ -1,0 +1,22 @@
+{
+  "CONTRATO-001": {
+    "contrato_id": "CONTRATO-001",
+    "codigo_aseguradora": "ISA-EJ",
+    "isapre": "Isapre Ejemplo",
+    "tipo_plan": "Libre Elección",
+    "numero_cargas": 2,
+    "cotizacion_pactada": {
+      "precio_base_plan": 95000,
+      "factor_grupo_familiar": 38000,
+      "diferencia_fallo_corte_suprema": 0,
+      "valor_uf_edad_2_y_65": 0,
+      "precio_ges": 8200,
+      "precio_caec": 3500,
+      "precio_beneficio_adicional": 0,
+      "prima_extraordinaria_ley_21674": 1200,
+      "ajuste_al_7_ley_21674": -1700,
+      "total_cotizacion_pactada": 145200
+    },
+    "cotizacion_total_a_pagar": 145200
+  }
+}
